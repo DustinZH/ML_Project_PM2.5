@@ -3,3 +3,4 @@ This is our Machine Learning project. We want to use Linear Regression/LASSO/Neu
 
 ---------------------------
 ## First Step: Data Collection 
+At the beginning of our project, we need to find a huge property data Source, which also need some attributes. 
