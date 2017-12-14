@@ -72,8 +72,9 @@ data_3.to_csv("/NYU/ML/ML_Project_PM2.5/dataSet/data_3.csv")
 More detail in PM2.5 Multi-method Regression.ipynb
 Final Result:
 
-| Left-aligned | Center-aligned | 
+| Model        | Normalized RSS | 
 | :---         |     :---:      |
-| git status   | git status     |
-| git diff     | git diff       |
-
+| Simple first-order linear regression   | 0.542290     |
+| Third-order linear regression     | 0.417474       |
+| Third-order linear regression with LASSO L1 Regularization     | 0.417535       |
+| Neural Network with 20 hidden-units     | 0.347188       |
