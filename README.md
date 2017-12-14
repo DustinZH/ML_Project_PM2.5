@@ -53,3 +53,7 @@ def data_clean(dfdata):
 
 data = data_clean(df)  
 ```
+Now we can get all the valid data set, it has 93790 rows, 1 column output,and 10 column attributes.
+```sh
+data.shape
+```
