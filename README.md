@@ -66,3 +66,6 @@ test2 = np.hstack((test,data*data*data))
 data_3 = pd.DataFrame(test2)
 data_3.to_csv("/NYU/ML/ML_Project_PM2.5/dataSet/data_3.csv")
 ```
+
+---------------------------
+## Third Step: Linear Regression 
