@@ -72,8 +72,8 @@ data_3.to_csv("/NYU/ML/ML_Project_PM2.5/dataSet/data_3.csv")
 More detail in PM2.5 Multi-method Regression.ipynb
 Final Result:
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| Left-aligned | Center-aligned | 
+| :---         |     :---:      |
+| git status   | git status     |
+| git diff     | git diff       |
 
