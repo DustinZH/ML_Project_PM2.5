@@ -69,3 +69,8 @@ data_3.to_csv("/NYU/ML/ML_Project_PM2.5/dataSet/data_3.csv")
 
 ---------------------------
 ## Third Step: Linear Regression 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
