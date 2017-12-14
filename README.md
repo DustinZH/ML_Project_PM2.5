@@ -57,3 +57,12 @@ Now we can get all the valid data set, it has 93790 rows, 1 column output,and 10
 ```sh
 data.shape
 ```
+Finally, we want to make more attributes.So what we have done is to add 2-order and 3-order attributes to our data set. now it have 30 attributes.
+```sh
+test = np.hstack((data,data*data))
+data_2 = pd.DataFrame(test)
+data_2.to_csv("/NYU/ML/ML_Project_PM2.5/dataSet/data_2.csv")
+test2 = np.hstack((test,data*data*data))
+data_3 = pd.DataFrame(test2)
+data_3.to_csv("/NYU/ML/ML_Project_PM2.5/dataSet/data_3.csv")
+```
