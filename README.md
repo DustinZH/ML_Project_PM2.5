@@ -68,7 +68,9 @@ data_3.to_csv("/NYU/ML/ML_Project_PM2.5/dataSet/data_3.csv")
 ```
 
 ---------------------------
-## Third Step: Linear Regression 
+## Final Step: Linear regression/LASSO/Neural Network
+More detail in PM2.5 Multi-method Regression.ipynb
+Final Result:
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
