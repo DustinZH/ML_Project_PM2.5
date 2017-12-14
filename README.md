@@ -13,3 +13,9 @@ http://aqi.cga.harvard.edu/china/cumulative/
 
 ---------------------------
 ## Second Step: Data Extraction and Clean
+After we get the data. First, we decide to only use One hundred thousand data, Because it's need long time to process two million data.
+```sh
+df_total = pd.read_csv("../dataSet/aqi_hourly_to_2016-02-04.csv")
+df =  df_total.head(100000)
+```
+What's more, we find there are lots of invalid rows, which have '-' or NaN. Before we do Machine Learning, we need to clean the data. So we write a data clean function to help us clean and standardize data.
