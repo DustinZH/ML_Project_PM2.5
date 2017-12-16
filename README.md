@@ -1,5 +1,13 @@
 # PM2.5 Prediction by Machine Learning
-This is our Machine Learning project. We want to use Linear Regression/LASSO/Neural Network to predict PM2.5 in China.
+This is our Machine Learning project. We want to use Linear Regression/LASSO/Neural Network to predict PM2.5 level by related climate attributes.
+
+# Project Aim and Problem Modeling
+
+This project try to predict the PM2.5 Level by other related climate attributes by regression. In this Project, we will try a number of regression methods we obtained from the lecture, and we try to compare their performance.
+
+The data from Harvard CGA website includes 10 attributes and 1 target value:
+Atttibutes: (PM10 level, O3, NO2, SO2, CO, Temperature, Dew point, Pressure, Humidity, Wind)
+Target value: PM2.5 level
 
 ---------------------------
 ## First Step: Data Collection 
@@ -10,7 +18,6 @@ Because GitHub's file size limit of 100MB, you can find the original pm2.5 data 
 ```sh
 http://aqi.cga.harvard.edu/china/cumulative/
 ```
-
 ---------------------------
 ## Second Step: Data Extraction and Clean
 After we get the data. First, we decide to only use One hundred thousand data, Because it's need long time to process two million data.
@@ -23,6 +30,9 @@ Finally, we want to make more attributes.So what we have done is to add 2-order 
 
 ---------------------------
 ## Final Step: Linear regression/LASSO/Neural Network
+
+With cleaned data, we are now able to build multiple different models to predict the PM 2.5 Level
+
 More detail in PM2.5 Multi-method Regression.ipynb
 Final Result:
 
