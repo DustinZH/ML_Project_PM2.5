@@ -34,7 +34,7 @@ Finally, we want to make more attributes.So what we have done is to add 2-order 
 
 With cleaned data, we are now able to build multiple different models to predict the PM 2.5 Level
 
-More detail in PM2.5 Multi-method Regression.ipynb
+More detail in [PM2.5 Multi-method Regression.ipynb](https://github.com/DustinZH/ML_Project_PM2.5/blob/master/PM2.5%20Multi-method%20Regression.ipynb)
 Final Result:
 
 | Model        | Normalized RSS | 
