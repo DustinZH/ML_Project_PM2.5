@@ -20,6 +20,7 @@ http://aqi.cga.harvard.edu/china/cumulative/
 ```
 ---------------------------
 ## Second Step: Data Extraction and Clean
+We cleaned the data in data_clean.ipynb(https://github.com/DustinZH/ML_Project_PM2.5/blob/master/dataClean/data_clean.ipynb)
 After we get the data. First, we decide to only use One hundred thousand data, Because it's need long time to process two million data.
 
 Second, we find there are lots of invalid rows, which have '-' or NaN. Before we do Machine Learning, we need to clean the data. So we write a data clean function to help us clean and standardize data.
