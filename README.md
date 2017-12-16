@@ -31,7 +31,7 @@ Final Result:
 | Simple first-order linear regression   | 0.542290     |
 | Third-order linear regression     | 0.417474       |
 | Third-order linear regression with LASSO L1 Regularization     | 0.417535       |
-| Neural Network with 10 hidden-units     | 0.399184       |
-| Neural Network with 20 hidden-units     | 0.395178       |
-| Neural Network with 40 hidden-units     | 0.391945       |
-| Neural Network with 80 hidden-units     | 0.392401       |
+| Neural Network with 10 hidden-units     | 0.404074       |
+| Neural Network with 20 hidden-units     | 0.391214       |
+| Neural Network with 40 hidden-units     | 0.393047       |
+| Neural Network with 80 hidden-units     | 0.406128       |
